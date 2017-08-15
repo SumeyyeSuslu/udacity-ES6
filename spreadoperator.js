@@ -49,4 +49,6 @@ var primes = new Set([2, 3, 5, 7, 11, 13, 17, 1923, 29]);
 (_console = console).log.apply(_console, _toConsumableArray(primes));
 
 //Output:
+/*
 2 3 5 7 11 13 17 1923 29
+*/
