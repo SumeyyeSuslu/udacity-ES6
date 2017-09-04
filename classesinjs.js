@@ -29,3 +29,15 @@ class Plane{
   }
 }
 typeof Plane;
+//ES6:
+//the eat() method ends up on Animal.prototype
+//typeof Animal==='function'
+class Animal{
+  constructor(name= 'Sprinkles', energy = 100){
+    this.name = name;
+    this.energy = energy;
+  }
+  eat(food){
+    this.energy+= food/3;
+  }
+}
